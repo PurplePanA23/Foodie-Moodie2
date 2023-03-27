@@ -1,0 +1,136 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>News</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="media/x-icon" href="logo.jfif">
+    <style type="text/css">
+        .body{
+            font-family: cursive;
+            font-size: 20px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-items: flex-start;
+           
+        }
+        .nav img{
+            align-self: flex-start;
+        }
+    .nav_menu{
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        list-style-type: none;
+        left: 0;right: 0;
+        }
+        .nav_menu a{
+            text-decoration: none;
+        }
+        .nav_menu li{
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+        .nav_menu .active{
+            background-color: darkgoldenrod;
+            color: white;
+        }
+        .nav_menu a:hover:not(.active){
+            background-color: darkblue;
+            color: white;
+        }
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+
+        }
+
+        .dropdown-content a {
+            font-size: 20px;
+          float: none;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+            padding: 5px;
+        }
+
+        .dropdown-content a:hover {
+             background-color: #ddd;
+        }
+        .dropdown {
+        float: left;
+        overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: inherit;
+            border: none;
+            outline: none;
+            color: inherit;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+
+        @media only screen and (max-width: 700px){
+            .nav_menu{
+               flex-direction: column;
+            }
+            .nav{
+                flex-direction: column;
+                justify-content: flex-start; 
+            }
+            .nav img{
+                padding-left: 50px;
+            }
+            .dropdown button{
+                padding-left: 0px;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+  	<!-- Navigation link -->
+    <div class="nav">
+        <img src="img for web/k.png" alt="logo">
+        <ul class="nav_menu">
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Cities<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Yangon</a>
+                            <a href="#">Mawlamyine</a>
+                            <a href="#">Hpa-An</a>
+                            <a href="#">Taung Gyi</a>
+                            <a href="#">Mandalay</a>
+                        </div>
+                </div>
+            </li>
+            <li><a href="#About us">Contact Us</a></li>
+            <li><a href="#Contact">About Us</a></li>
+    </ul>
+    </div>
+    
+  </body>
+  </html>

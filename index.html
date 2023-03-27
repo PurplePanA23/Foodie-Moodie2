@@ -1,0 +1,265 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>Foodie Moodie</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="media/x-icon" href="logo.jfif">
+    <style type="text/css">
+        body{ background-color: #C68036;
+                font-family: Cambria;
+        }
+        .body{
+            font-size: 20px;
+
+          
+       }        
+        .nav{
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-items: flex-start;
+           
+        }
+        .nav img{
+            align-self: flex-start;
+        }
+    .nav_menu{
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        justify-items: flex-end;
+        list-style-type: none;
+        left: 0;right: 0;
+    
+        }
+        .nav_menu a{
+            text-decoration: none;
+        }
+        .nav_menu li{
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+        .nav_menu .active{
+            background-color: darkgoldenrod;
+            color: white;
+        }
+        .nav_menu a:hover:not(.active){
+            background-color: #F4B183;
+            color: white;
+        }
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+
+        }
+
+        .dropdown-content a {
+            font-size: 20px;
+          float: none;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+            padding: 5px;
+        }
+
+
+
+        .text{
+            text-align: center;
+            font-family: Cambria;
+            background-color: #C68036;
+            font-size: 14px;
+        }
+
+        .font{
+        float: right;
+        text-align:left ;
+        display: flex;
+        flex-direction: row;
+
+    }   
+        #myBtn {
+            width: 150px ;
+            height: 50px;
+            background-color: #F4B183;
+            font-size: 20px;
+            font-family: Cambria;
+
+
+            }
+
+        .dropdown-content a:hover {
+             background-color: #dfe6e4;
+
+        }
+        .dropdown {
+        float: left;
+        overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: inherit;
+            border: none;
+            outline: none;
+            color: black;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+
+        .nav ul li a{
+            color: black;
+        }
+
+        .mainclass{
+        margin-top:75px;
+        background-image:url("image for web/chicken.gif");
+        padding:150px;
+        text-align:center;
+        background-position: center;
+        background-color: #ccccccc;
+        position: relative;
+        background-size: cover;
+        color:#f23c18;
+        }
+        
+        .gallery{
+        width:180px;
+        float: left;
+        margin:5px;
+        border: 1px solid #ccc;
+        }
+        
+        .gallery img{
+        width:100%;
+        height:180px;
+        }
+        
+        .container{
+        width:100%;
+        margin: auto;
+        }
+        
+        .imagecenter{
+        margin-left: 25%;
+        margin-right: 25%;
+        }
+        
+        footer{
+        text-align:center;
+        color:Black;
+        padding:50px;
+        background-color: #FFE7CC;
+    }
+        
+        @media only screen and (max-width: 700px){
+            .nav_menu{
+               flex-direction: column;
+            }
+            .nav{
+                flex-direction: column;
+                justify-content: flex-start; 
+            }
+            .nav img{
+                padding-left: 50px;
+            }
+            .dropdown button{
+                padding-left: 0px;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+  	<!-- Navigation link -->
+    <div class="nav">
+        <img src="images3/k.png" alt="logo">
+        <ul class="nav_menu">
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Cities<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="Yangonfo.html">Yangon</a>
+                            <a href="Mudonfo.html">Mudon</a>
+                            <a href="hpa-an.html">Hpa-An</a>
+                            <a href="Taung Gyifo.html">Taung Gyi</a>
+                            <a href="Mandalayf.html">Mandalay</a>
+                        </div>
+                </div>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about us T ONE.html">About Us</a></li>
+            
+            
+            
+    </ul>
+    </div>
+    <img src="images3/Foodie Moodiefo.png"
+        width=100%;
+        height=100%;>
+
+        <h1 class="text" style="font-size: 60px;">
+        About Us</h1>
+
+       
+
+        <div class="font">
+            <img src="images3/abtus.png" width="55%" height="70%">
+    
+    <div class="text"><h1> Webpage Name - Foodie Moodie</h1>
+        <h1>Welcome to our Foodie Moodie Webpage. In our website you can explore the restaurant that locate in the town. You have 5 town to explore.These 5 town are Yangon , Hpa-An , Mandalay , Mudon and Taunggyi.</h1>
+        <a href="about us T One.html"> <button type="button" id="myBtn" onclick="myFunction()">Read more </button>
+        </div></div></a></div>
+
+       
+
+<script>
+function myFunction() {
+  document.getElementById("myBtn").style.bottom = "300px";
+}
+</script>
+
+     <footer>
+
+        <div class="footer-content">
+            <h3>Foodie Moodie</h3>
+            <p>Foodie Moodie blog website is where you can find the local restaurant and also you can see where the restaurant located.Review and rating also!</p>
+            
+        </div>
+        <div class="footer-bottom">
+            <p>Thank you for visting to our website</span></p>
+            <p> eaindrasithu21@gmail.com <br> swelpana443@gmail.com <br> thandarnyeinchan.lin@gmail.com <p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+  </html>
